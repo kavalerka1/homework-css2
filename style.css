@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family:'Montserrat' ;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* display: block; */
+}
+.navbar-wrapper ul{
+    /* width: 620px;
+    height: 15px;  */
+     /* flex-shrink: 0; */
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero-banner{
+
+    display: flex;
+    /* width: 1200px; */
+  /* margin: 0 auto; */
+    
+}
+.hero-banner >img{
+    width: 100%;
+    
+    display: block;
+    /* width: 1200px;
+  margin: 0 auto; */
+    margin: 0px auto;
+    
+}
+.nav-element{
+    color:#F00;
+    text-decoration: none;
+      
+}
+.navbar-list{
+    justify-content: center;
+    /* justify-content: space-around; */
+    display: flex;
+    list-style:none ;
+    gap:50px;
+    /* flex-direction: row; */
+}
+.zalupa{
+    display: flex;
+    justify-content: center;  
+    text-transform: uppercase;
+    color: #373737;
+    /* margin: 0px auto; */
+    margin: 48px 253px 0 253px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+    font-size: 22px;
+    /* padding-bottom: 40px; */
+}
+p{
+    text-align: center;
+    color: #373737;
+    margin: 0px auto;
+    padding-top: 40px;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    /* height: 100px; */
+    padding-left: 67.5px;
+    padding-right: 67.5px;
+    /* width: 300px; */
+    /* height: 300px; */
+}
+a{
+    color:#F00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 131px;
+    height: 27px;
+}
+.button{
+    border-radius: 4px;
+    padding: 18px 42px 18px 42px;
+    /* margin-top: 40px; */
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #F00;
+    border-width: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    
+
+}
+.hero-footer{
+    display: flex;
+    justify-content: flex-end ;
+    padding:40px 50px 20px 0 ;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+    color: #373737;
+    font-size: 16px;
+
+}
+.hero-start{
+    display: flex;
+    justify-content: center ;
+   
+}
+.paragraph{
+    padding-bottom: 40px;
+}
